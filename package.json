@@ -1,0 +1,21 @@
+{
+  "name": "kalaburagi-yatra",
+  "version": "0.1.0",
+  "description": "Kalaburagi Yatra: circuit booking platform (Phase 1: Customer and Travel owner panels)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "qrcode": "^1.5.4"
+  }
+}
